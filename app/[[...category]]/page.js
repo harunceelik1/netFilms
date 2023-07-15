@@ -22,7 +22,7 @@ export default async function HomePage({ params }) {
   ]);
   // burada promise.all olayı await birden fazla asenkron işlemi aynı anda işleme almak için kullanılır.
   // Böylelikle diğer asenkron işlemlerin bitmesini beklemeden diğerlerini de işleme almış oluyoruz.
-  //  const [{results: topRatedMovies} bu kod ise topMoviesPromise'in results değişkenini topRatedMovies'e atıyor.
+  // const [{results: topRatedMovies} bu kod ise topMoviesPromise'in results değişkenini topRatedMovies'e atıyor.
   console.log(categories);
 
   let selectedCategory;
